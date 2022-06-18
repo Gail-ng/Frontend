@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<style>
+  /* @media screen and (max-weight:1440px;)*/
+
+  * {
+    marin: auto;
+    padding: 0px;
+    allign-items: center;
+    justify-items: right;
+    font-size: 20px;
+    font-family: san-serif;
+    background-color: #ff878d;
+    background-image: url(image/bg-intro-desktop.png);
+  }
+
+  body {
+    allign-content: center;
+    color: #ffff;
+    margin: 0px;
+    text-decoration: none;
+
+  }
+
+  h1 {
+    color: #ffff;
+    font-family: arial, san-serif;
+    font-size: 40px;
+    margin: 0px;
+
+  }
+
+  /*add full-width input fields*/
+
+  input[type=text],
+  input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  /* set a style for all buttons*/
+
+  button {
+    background-color: #0082ff;
+    color: white;
+    padding: 15px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .btn1 {
+    background-color: green;
+    color: white;
+    padding: 15px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 100%;
+
+  }
+
+  /*float all buttons and add an equal width*/
+
+  btn,
+  .btn {
+    float: right;
+    width: 50%;
+  }
+
+  btn1,
+  .btn {
+    float: right;
+    width: 50%;
+  }
+
+  .form {
+    margin: 0px;
+    padding: 2px;
+    justify: rigth;
+    outline: 3px white;
+  }
+
+  /*add padding to container elements*/
+
+  .container {
+    padding: 15px;
+  }
+
+  /*clear floats*/
+
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /*styles all button
+      on extra small screens*/
+
+  @media screen and (max-width: 300px) {
+
+    .btn,
+    .btn1 {
+      width: 100%;
+    }
+  }
+
+  .box {
+    font-family: arial;
+    font-size: 24px;
+    margin: 25px;
+    width: 200px;
+    height: 200px;
+    outline: 1px white;
+    allign-items: center;
+</style>
+
+<body>
+  <div class="box">
+    <h1>Learn to code by watching others</h1>
+  </div>
+  <p>See how experienced developers solve problems in real-time.</p>
+  <p>Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+  </div>
+
+  <div style="max-width:400px;margin:auto">
+    <div class="input-button">
+      <form> <button>Try it free for 7 days then pay $20 per month thereafter</button></form>
+
+      <div style="max-width:400px;margin:auto">
+        <div class="input-forms">
+          <form action="/action_page.php" style="border:1px solid #ccc">
+            <div class="container">
+              <input type="text" placeholder="First name" name="name" required>
+              <input type="text" placeholder="Last Name" name="lastname" required>
+              <input type="text" placeholder="Email Address" name="Email" required>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+
+
+              <div class="clearfix">
+                <button type="submit" class="btn1">Claim your free trial</button>
+              </div>By clicking the button, you agree to<a
+                href="https://www.privacypolicies.com/blog/how-to-write-terms-conditions/"> terms and conditions.</a>
+            </div>
+          </form>
+
+
+          <div>
+            <form> </form>
+          </div>
+</body>
+
+</html>
